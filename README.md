@@ -7,6 +7,13 @@ tyrant editor isnt mennt to be the biggest scene editor of all time, i made it a
 
 enjoy and use my program however u like. if you would like to contact me, email me on soggy.bread14@gmail.com or add me on discord which my username is pi3rce911
 
+info: 
+R resets camera's rotation.
+L hides UI.
+F teleports to selected object.
+drag and drop to load a model or a skybox.
+currently tyranteditor only supports glb files.
+
 cinro fumo model license & credit:
 https://sketchfab.com/Gorgonych
 CC Attribution-NonCommercial
