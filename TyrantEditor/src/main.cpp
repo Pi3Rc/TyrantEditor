@@ -282,9 +282,7 @@
                 ImGui::SliderFloat("Scale", &obj.scale, 0.1f, 10.0f);
                 ImGui::SliderFloat("Transparency", &obj.transp, 0.0f, 255.0f);
             }
-
-            ImGui::Text("Skybox");
-            ImGui::Button("Select Cubemap");
+            
             ImGui::End();
 
         #pragma region imgui
