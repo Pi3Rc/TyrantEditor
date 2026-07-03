@@ -52,9 +52,6 @@
         int selectedObject = -1;
 
         SetTargetFPS(144);
-        Model cinro = LoadModel("resources/Cinro.glb");
-
-        Vector3 CinroPosition = { 0.0f, 0.0f, 0.0f };
 
         //ui
         bool UIActive = true;
@@ -73,7 +70,7 @@
 
         SetShaderValue(shdrCubemap, GetShaderLocation(shdrCubemap, "equirectangularMap"), (int[1]){ 0 }, SHADER_UNIFORM_INT);
 
-        char skyboxFileName[256] = { "resources/cubemap/this.png" }; // get default skybox name
+        char skyboxFileName[256] = "resources/cubemap/this.png"; // get default skybox name
         if (useHDR)
         {
             Texture2D panorama = LoadTexture(skyboxFileName);
@@ -230,8 +227,6 @@
                 rlEnableDepthMask();
 
                 //model loading starts here
-                DrawModel(cinro, CinroPosition, 1.0f, WHITE);
-
                 for (int i = 0; i < sceneObjects.size(); i++)
                 {
                     Color tint = (i == selectedObject) ? GRAY : sceneObjects[i].colorTint;
@@ -264,10 +259,9 @@
 
             ImGui::Text("Models");
 
-            ImGui::SliderFloat3("Transform", &CinroPosition.x, -10.0f, 10.0f );
-
-            if (ImGui::Button("Delete"))
+            if (ImGui::Button("Delete") && selectedObject != -1)
             {
+                std::cout << "Delete works, hiiiii do u heaarrrr meeee... wait.. it should be do u read me??";
                 UnloadModel(sceneObjects[selectedObject].model);
                 sceneObjects.erase(sceneObjects.begin() + selectedObject);
                 selectedObject = -1;
@@ -310,7 +304,6 @@
 
         UnloadModel(skybox);        // Unload skybox model
 
-        UnloadModel(cinro);
         for (auto& obj : sceneObjects)
         {
             UnloadModel(obj.model);
