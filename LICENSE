@@ -1,0 +1,58 @@
+Weed Goyming General License (WGL)
+     Version 4
+
+0. Definitions
+
+ Licensed Work (LW) refers to executables,
+  source code, hardware, hardware schematics,
+  and documentation provided under this License.
+
+ Licensee's Extras (LE) refers to any software or hardware authored by,
+ owned by, or distributed by the Licensee
+  that interfaces with, extends, embeds, hosts, orchestrates, controls,
+  or monitors the LW directly or indirectly.
+
+ Assets and Data (AAD) refers to  purely non-executable, non-functional data, including art, music,
+  user data, and user-generated content.
+  
+1. Grant of Rights
+
+ The Licensor grants the Licensee a worldwide, royalty-free copyright and patent license to
+  use, manufacture, modify, make accessible by any means, or distribute the LW
+  under the following conditions:
+
+    1.1 Any modifications and their schematics/source code
+     to the LW must be published in a prominent, publicly accessible manner,
+     free of charge under the same license as the LW
+     simultaneously with its distribution or availability,
+     without addition of further restrictions or terms.
+
+    1.2 All parts of the LE and their schematics/source code
+     must be published in a prominent, publicly accessible manner,
+     free of charge under the same license as the LW
+     simultaneously with its distribution or availability,
+     without addition of further restrictions or terms.
+
+2. Exclusions
+
+ Assets and Data (AAD) are explicitly excluded from the mandates of this license.
+  The Licensor retains all rights to their AAD, and the Licensee retains all rights to their own AAD.
+
+3. Termination
+
+ Any failure to comply with the conditions of this License results in the immediate, automatic, and
+  retroactive termination of this Grant of Rights unless the Licensee cures the violation(s)
+  in 30 days of discovery.
+
+ Continued use of the LW following termination constitutes willful copyright and patent infringement.
+
+4. Warranty
+
+ The LW is provided "as is," without warranty of any kind.
+  The Licensor is not liable for any damages, hardware failure,
+  or data loss arising from the use or modification of the LW.
+
+5. Severability
+
+ If any provision of this License is held to be unenforceable or invalid under applicable law,
+  the remaining provisions of this License shall continue in full force and effect.
