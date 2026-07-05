@@ -127,7 +127,7 @@
             }
 
             //teleport to object
-            if(IsKeyPressed(KEY_F)) 
+            if(IsKeyPressed(KEY_F) && selectedObject != -1) 
             {
                 object& obj = sceneObjects[selectedObject];
                 camera.position = obj.position;
